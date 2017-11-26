@@ -5,15 +5,15 @@ import java.util.regex.Pattern;
 
 public class DutchNumber implements PhoneValidator {
 
-    public static boolean isValid(String maybePhone) {
+    public boolean isValid(String maybePhone) {
         return true;
     }
 
-    public static double rateOf(String maybePhone) {
+    public double rateOf(String maybePhone) {
         return 4.0;
     }
 
-    public static PhoneLocality localityOf(String maybePhone) {
+    public PhoneLocality localityOf(String maybePhone) {
         return PhoneLocality.national;
     }
 }

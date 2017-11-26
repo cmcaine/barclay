@@ -4,9 +4,9 @@ enum PhoneLocality {
 
 interface PhoneValidator {
 
-    public static boolean isValid(String maybePhone);
+    public boolean isValid(String maybePhone);
 
-    public static double rateOf(String maybePhone);
+    public double rateOf(String maybePhone);
 
-    public static PhoneLocality localityOf(String maybePhone);
+    public PhoneLocality localityOf(String maybePhone);
 }
